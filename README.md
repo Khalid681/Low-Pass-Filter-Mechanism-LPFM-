@@ -65,7 +65,7 @@ python preprocess_and_split.py
 **What it does:**
 
 * Loads cleaned SNR datasets from both 433 MHz and 915 MHz
-* Applies a **Weighted Moving Average (WMA)**
+* Applies a **Low Pass Filter mechanism (LPFM)**
 * Detects:
 
   * **SNR gain shift zones**
